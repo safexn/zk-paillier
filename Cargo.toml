@@ -23,10 +23,10 @@ rayon = "1.1"
 bit-vec = "0.6"
 sha2 = "0.8.0"
 digest = "0.8.1"
-curv = { git = "https://github.com/DeepSecurityNetwork/curv", branch = "deep", version = "0.7", default-features = false }
+curv = { git = "https://github.com/safexn/curv", branch = "deep", version = "0.7", default-features = false }
 
 [dependencies.paillier]
-git = "https://github.com/DeepSecurityNetwork/rust-paillier"
+git = "https://github.com/safexn/rust-paillier"
 branch = "deep"
 default-features = false
 
